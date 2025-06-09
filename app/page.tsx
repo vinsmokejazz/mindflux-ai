@@ -6,7 +6,7 @@ const Page=()=>{
   return (
     <main>
       <h1 className="text-2xl underline">Popular Companions</h1>
-      <section>
+      <section className="flex items-center justify-center gap-6">
         <CompanionCard id="123"
         name="Neura the brainy expert"
         topic="neural network of brain"
